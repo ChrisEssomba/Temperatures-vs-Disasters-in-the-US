@@ -1,0 +1,21 @@
+title: "Analyse des Températures et Catastrophes Naturelles aux États-Unis (2003–2022)"
+sources:
+  - name: "Kaggle – Average Monthly Temperature by US State"
+    url: "https://www.kaggle.com/datasets/justinrwong/average-monthly-temperature-by-us-state?resource=download"
+  - name: "EM-DAT – International Disaster Database"
+    url: "https://public.emdat.be/data"
+variables:
+  - Year: "année d'observation"
+  - AverageTemperature: "température moyenne annuelle aux États-Unis"
+  - DisasterType: "type de catastrophe (inondation, tempête, etc.)"
+  - Location: "lieu de survenue de la catastrophe"
+  - Deaths: "nombre de morts"
+  - Affected: "nombre de personnes affectées"
+  - Anomaly: "écart à la moyenne historique (1901–2000)"
+frequency: "annuelle"
+license:
+  kaggle: "Usage personnel ou académique (consulter les conditions sur la page)"
+  emdat: "Données publiques sous condition de citation de la source"
+format:
+  - csv
+  - ipynb
